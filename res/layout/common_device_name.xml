@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtDeviceName"
+        android:layout_centerHorizontal="true"
+        android:text="@string/common_system_input_device_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/edtDeviceName"
+        style="@android:style/Widget.TextView"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+</RelativeLayout>

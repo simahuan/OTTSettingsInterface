@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- <dimen name="uitable_width">410dp</dimen> -->
+    <dimen name="uitable_margin_left">160dp</dimen>
+    <dimen name="uitable_margin_right">160dp</dimen>
+
+    <!-- 表格字体大小 -->
+    <dimen name="table_title">24sp</dimen>
+    <dimen name="table_row_title">28sp</dimen>
+    <dimen name="table_row_content_text_size">26sp</dimen>
+    
+    <!-- listview padding -->
+    <dimen name="listview_padding_x">10dp</dimen>
+    <dimen name="listview_padding_y">10dp</dimen>
+
+</resources>

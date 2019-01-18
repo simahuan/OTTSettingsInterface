@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <declare-styleable name="ApplicationsStackLayout">
+        <attr name="stackOrientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="marginLeft" format="dimension"  />
+        <attr name="marginTop" format="dimension"  />
+        <attr name="marginRight" format="dimension"  />
+        <attr name="marginBottom" format="dimension"  />
+    </declare-styleable>
+    
+    <declare-styleable name="NumberPicker">
+        <attr name="itemTextColor" format="color" />
+        <attr name="itemTextSize" format="integer" />
+        <attr name="itemNumbers" format="integer" />
+        <attr name="itemDrawShadows" format="boolean" />
+        <attr name="itemIsCyclic" format="boolean" />
+    </declare-styleable>
+    
+</resources>

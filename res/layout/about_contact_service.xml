@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".about.ContackServiceActivity" >
+    
+ 	<include layout="@layout/settings_actionbar"/>
+    <RelativeLayout 
+        android:layout_width="@dimen/uitable_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        >
+
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            >
+        <LinearLayout
+            android:id="@+id/contactServiceInfoLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/contact_service_qr"
+	            />
+	        
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20sp"
+               android:orientation="vertical"
+                >
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/about_contact_service_title"
+                   android:textSize="27sp"
+                   />
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/about_contact_service_tips"
+                   android:textSize="15sp"
+                   />
+               
+			    <com.pisen.ott.settings.about.DashedLine
+			        android:id="@+id/dashedLine"
+			        android:layout_width="match_parent"
+			        android:layout_height="20px" />
+                   
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="15sp"
+                   android:text="@string/about_contact_service_pisen"
+                   />
+                
+               <LinearLayout 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   >
+                  <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="15sp"
+                   android:drawableLeft="@drawable/contact_cell_phone"
+                   android:drawablePadding="5dp"
+                   android:text="@string/about_contact_service_tel"
+                    android:textStyle="italic"
+                   /> 
+                   <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="15sp"
+                   android:layout_marginLeft="25sp"
+                   android:drawableLeft="@drawable/contact_qq_no"
+                   android:drawablePadding="5dp"
+                   android:text="@string/about_contact_service_qq"
+                   android:textStyle="italic"
+                   /> 
+               </LinearLayout>
+           </LinearLayout>
+        </LinearLayout>
+        
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="50sp"
+          >
+	        <TextView
+	            android:layout_weight="1.0"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:drawableTop="@drawable/contact_24hours_delivery"
+	            android:text="@string/about_contact_service_24hours" 
+	            android:gravity="center_horizontal"
+	            />
+	
+	        <TextView
+	            android:layout_weight="1.0"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:drawableTop="@drawable/contact_1hours_upto"
+	            android:text="@string/about_contact_service_1hours" 
+	            android:gravity="center_horizontal"
+	            />
+	
+	        <TextView
+	            android:layout_weight="1.0"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:drawableTop="@drawable/contact_call_pasting"
+	            android:text="@string/about_contact_service_pasting" 
+	            android:gravity="center_horizontal"
+	            />
+	        
+	        <TextView
+	            android:layout_weight="1.0"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:drawableTop="@drawable/contact_call_routing"
+	            android:text="@string/about_contact_service_routing" 
+	            android:gravity="center_horizontal"
+	            />
+	        
+	        <TextView
+	            android:layout_weight="1.0"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:drawableTop="@drawable/contact_call_return"
+	            android:text="@string/about_contact_service_exchange" 
+	            android:gravity="center_horizontal"
+	            />
+     </LinearLayout>
+</LinearLayout>
+           
+    </RelativeLayout>
+</LinearLayout>

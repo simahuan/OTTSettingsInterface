@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="setting_names">
+        <item>Backlight</item>
+        <item>Contrast</item>
+        <item>Brightness</item>
+        <item>Sharpness</item>
+        <item>Color</item>
+        <item>Tint</item>
+    </string-array>
+    <string-array name="setting_values">
+        <item>Standard</item>
+        <item>Cinema</item>
+        <item>Vivid</item>
+        <item>Game</item>
+        <item>Custom</item>
+    </string-array>
+
+    <!-- 2张图片切换间距 -->
+    <integer name="carousel_drop_period">5000</integer>
+    <!-- 图片自身flip时间-->
+    <integer name="flip_duration">2000</integer>
+    
+    <!-- 屏保图片set Tag -->
+    <item type="id" name="photo_height" />
+    <item type="id" name="photo_width" />
+    <item type="id" name="photo_orientation" />
+    <item type="id" name="data_payload" />
+</resources>

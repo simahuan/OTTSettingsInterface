@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 内部版本号用于升级apk判断 -->
+    <string name="InternalVersion">100</string>
+
+    <!-- Ui版本号用于内容更新 -->
+    <string name="UiVersion">1.0.1</string>
+
+</resources>

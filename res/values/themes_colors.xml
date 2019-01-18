@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_white">#ffffffff</color>
+    <color name="text_white_t80">#ccffffff</color>
+    <color name="text_white_t50">#80ffffff</color>
+
+</resources>
